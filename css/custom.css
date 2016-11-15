@@ -1,0 +1,116 @@
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+.navbar {
+  padding: 10px 0 10px;
+  margin-bottom: 0;
+  background-color: black;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav > .active{
+  background: #1a1a1a;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: #1a1a1a;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: dimGray;
+}
+
+.navbar .nav > li > a {
+  color: white;
+}
+
+.navbar .nav > li > a:hover {
+  color: dimGray;
+}
+
+.header {
+  background: black;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.portfolio-item {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  background-color: #1a1a1a;
+}
+
+.portfolio-item a {
+  color: white;
+}
+
+.portfolio-item a:hover {
+  color: dimGray;
+}
+
+.portfolio-item-odd {
+  background-color: black;
+}
+
+.portfolio-item img {
+  max-height: 500px;
+}
+
+.footer {
+  padding: 20px 0 20px;
+  background: black;
+}
+
+.footer a {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.footer a:hover {
+  color: dimGray;
+}
+
+.resume {
+  padding: 30px;
+}
+
+.resume h4 {
+  padding-left: 10px;
+  margin-bottom: -2px;
+}
+
+.resume h5, .stars {
+  padding-left: 15px;
+}
+
+.resume p {
+  padding-left: 15px;
+}
+
+.posts {
+  padding: 30px;
+}
+
+.posts a {
+  color: black;
+}
+
+.posts a:hover {
+  color: dimGray;
+}
