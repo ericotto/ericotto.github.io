@@ -50,11 +50,11 @@ html, body {
 .portfolio-item a:hover {
   color: dimGray;
 }
-.portfolio-item-odd {
-  background-color: black;
-}
 .portfolio-item img {
-  max-height: 500px;
+  max-height: 400px;
+}
+.item-odd {
+  background-color: black;
 }
 .footer {
   padding: 20px 0 20px;
