@@ -8,11 +8,17 @@ html, body {
   padding: 0 0 60px;
 }
 .navbar {
-  padding: 10px 0 10px;
+  padding: 20px;
   margin-bottom: 0;
   background-color: black;
   border-radius: 0px;
+  text-align: center;
 }
+
+.navbar-brand {
+  float:none;
+}
+
 .navbar-default .navbar-nav > .active{
   background: #1a1a1a;
 }
@@ -85,7 +91,7 @@ html, body {
   padding-left: 15px;
 }
 .posts {
-  padding: 30px;
+  padding: 20px;
 }
 .posts a {
   color: black;
