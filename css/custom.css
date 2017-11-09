@@ -17,6 +17,7 @@ html, body {
 
 .navbar-brand {
   float:none;
+  font-size: 25px;
 }
 
 .navbar-default .navbar-nav > .active{
